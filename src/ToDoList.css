@@ -1,0 +1,12 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #d8bfd880; 
+  color: rgb(41, 18, 41);
+  padding: 0 15px;
+  height: 100vh;
+}

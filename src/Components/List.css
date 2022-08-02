@@ -1,0 +1,39 @@
+ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid rgba(141, 95, 141, 0.897);
+    transition: all 1s;
+}
+
+.date {
+    color: rgba(0, 0, 0, 0.432);
+    font-size: 0.8em;
+}
+
+li button {
+    background: transparent;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: rgba(141, 95, 141, 0.897);
+    font-size: 1.5em;
+}
+
+button.v:hover {
+    color:  rgba(60, 170, 60, 0.966);
+}
+
+button.x:hover {
+    color:  rgba(170, 60, 60, 0.966);
+}
+
+.done {
+    background:  rgba(94, 201, 94, 0.418);
+    text-decoration: line-through;
+}
+
+li.done .v {
+    visibility: hidden
+}
