@@ -94,16 +94,6 @@ export default class Todo extends Component {
             removeTask={this.removeTask}
           />
         </main>
-        <footer>
-          <a
-            href="https://github.com/valfer1"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Valeria F.
-          </a>{" "}
-          2019
-        </footer>
       </div>
     );
   }
